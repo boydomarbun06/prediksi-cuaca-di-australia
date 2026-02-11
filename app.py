@@ -75,7 +75,7 @@ FEATURE_NAMES = [
 ]
 
 # --- 4. ANTARMUKA INPUT ---
-st.title("🌧️ Rain Prediction System (Tuned ROC-AUC)")
+st.title("🌧️ Neurathink Rain Prediction System")
 st.info("Model: XGBoost Optimized for ROC-AUC Score")
 
 if model is None:
