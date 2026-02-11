@@ -76,7 +76,8 @@ FEATURE_NAMES = [
 
 # --- 4. ANTARMUKA INPUT ---
 st.title("🌧️ Neurathink Rain Prediction System")
-st.info("Model: XGBoost Optimized for ROC-AUC Score")
+st.info("Aplikasi ini digunakan untuk memprediksi apakah besok akan hujan atau tidak berdasarkan parameter cuaca harian di Australia. 
+Model: XGBoost Optimized for ROC-AUC Score")
 
 if model is None:
     st.error("⚠️ File 'xgboost_roc_auc_tuned_model.pkl' tidak ditemukan di direktori aktif.")
